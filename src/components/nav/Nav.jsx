@@ -26,7 +26,7 @@ const Nav = () => {
         </select>
         <div className="nav__wrapper">
             <ul>
-                <li><img src={profile} alt="" />{t('profile')}</li>
+                <li><Link className='link' to={"/Login"}><img src={profile} alt="" />{t('profile')}</Link></li>
                 <li><Link to={"/"}><img src={logo} alt="" /></Link></li>
                 <li><Link to={"/cart"}><img src={cart} alt="" /></Link></li>
             </ul>

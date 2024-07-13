@@ -21,6 +21,13 @@
     "cart" : "Savatcha",
     "remove" : "O'chirish",
     "total" : "Jami",
-    "total_items": "{{count}} ta mahsulot"
+    "total_items": "{{count}} ta mahsulot",
+    "login" : "Kirish",
+    "password": "Parol",
+    "register" : "Ro'yxatdan o'tish",
+    "enter": "Ro'yxatdan o'tish uchun kirdingiz va parolingizni kiriting",
+    "acc": "Ro'yxatdan o'tmaganmisiz?",
+    "registernow": "Ro'yxatdan o'tish",
+    "forgot": "Parolni unutdingizmi?"
     
 }

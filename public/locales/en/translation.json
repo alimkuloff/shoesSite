@@ -21,5 +21,12 @@
  "cart" : "Cart",
  "remove" : "Remove",
  "total" : "Total",
- "total_items": "{{count}} items"
+ "total_items": "{{count}} items",
+ "login" : "Login",
+ "register" : "Register",
+ "password": "Password",
+ "enter": "Enter your credential to access your account.",
+ "acc": "Don’t have an account?",
+ "registernow": "Register here",
+ "forgot": "Forgot password?"
 }
