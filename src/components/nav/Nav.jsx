@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next'
 import logo from '../../assets/logo.svg'
 import cart from '../../assets/cart.svg'
 import { Link } from 'react-router-dom'
+import profile from '../../assets/profile.svg'
 import './Nav.css'
 
 const Nav = () => {
@@ -25,8 +26,8 @@ const Nav = () => {
         </select>
         <div className="nav__wrapper">
             <ul>
-                <li>{t('profile')}</li>
-                <li><img src={logo} alt="" /></li>
+                <li><img src={profile} alt="" />{t('profile')}</li>
+                <li><Link to={"/"}><img src={logo} alt="" /></Link></li>
                 <li><Link to={"/cart"}><img src={cart} alt="" /></Link></li>
             </ul>
         </div>

@@ -16,6 +16,11 @@
     "follow" : "Bizga obuna bo'ling",
     "footer2": "Bizning kompaniyamiz 1500-yildan beri o'z mahsulotlari va xizmatlari bilan mijozlarni mamnun etib kelmoqda.",
     "contact" : "Biz bilan bog'lanish",
-    "footer3": "E-Comm , 4578 Marmora Road, Glasgow D04 89GR"
+    "footer3": "E-Comm , 4578 Marmora Road, Glasgow D04 89GR",
+    "proinfo": "Mahsulot haqida",
+    "cart" : "Savatcha",
+    "remove" : "O'chirish",
+    "total" : "Jami",
+    "total_items": "{{count}} ta mahsulot"
     
 }

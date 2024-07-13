@@ -27,6 +27,7 @@
     align-items: center;
     object-fit: cover;
     border-radius: 3px;
+    padding: 10px;
 }
 
 .card__title{
@@ -42,6 +43,7 @@
     gap: 0 20px;
     margin-top: 8px;
     margin-bottom: 5px;
+    max-width: 300px;
 }
 
 .card__price{
@@ -65,6 +67,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  max-width: 300px;
 }
 
 .card__discount{

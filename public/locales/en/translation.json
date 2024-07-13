@@ -16,5 +16,10 @@
  "follow" : "Subscribe to us",
  "footer2": "Our company has been satisfying customers with its products and services since 1500.",
  "contact": "Contact Us",
- "footer3": "E-Comm , 4578 Marmora Road, Glasgow D04 89GR"
+ "footer3": "E-Comm , 4578 Marmora Road, Glasgow D04 89GR",
+ "proinfo": "Product Infomation",
+ "cart" : "Cart",
+ "remove" : "Remove",
+ "total" : "Total",
+ "total_items": "{{count}} items"
 }

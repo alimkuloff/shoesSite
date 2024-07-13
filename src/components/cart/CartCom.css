@@ -1,0 +1,111 @@
+.cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+  }
+  
+  .cart__title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .cart__items {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .cart__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .cart__item-img {
+    width: 137px;
+    height: 84px;
+    object-fit: contain;
+    margin-right: 16px;
+  }
+  
+  .cart__item-info {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .cart__item-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .cart__item-price {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .cart__item-quantity {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .cart__item-quantity button {
+    background-color: #f6f7f8;
+    border: none;
+    border-radius: 4px;
+    color: #33a0ff;
+    font-size: 20px;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .cart__item-quantity span {
+    margin: 0 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .cart__item-remove {
+    background-color: #fca5a5;
+    border: none;
+    border-radius: 4px;
+    color: #ef4444;
+    padding: 8px 16px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .cart__total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 32px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .cart__total h3 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .cart__total p {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  

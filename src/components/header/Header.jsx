@@ -23,7 +23,7 @@ const Header = () => {
 
 
   return (
-    <div className=''>
+    <div>
         <div className="header">
           <div className="container">
             <div className="header__wrapper">

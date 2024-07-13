@@ -1,6 +1,6 @@
 import { AiFillStar } from "react-icons/ai"; 
 import axios from '../../api';
-import { useState, useEffect,} from 'react';
+import { useState, useEffect } from 'react';
 import './Cards.css';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
@@ -23,20 +23,19 @@ const Cards = () => {
   }, []);
 
   const renderStars = (rating) => {
-    return Array.from({ length: rating }, (_, index) => (
+    const stars = Math.min(rating, 5); 
+    return Array.from({ length: stars }, (_, index) => (
       <AiFillStar key={index} />
     ));
   };
 
-  const data = useTranslation();
-    const { t, i18n } = useTranslation();
-    const [language, setLanguage] = useState(i18n.language);
-  
-    const changeLanguage = (lang) => {
-       i18n.changeLanguage(lang);
-       setLanguage(lang);
-    };
-  
+  const { t, i18n } = useTranslation();
+  const [language, setLanguage] = useState(i18n.language);
+
+  const changeLanguage = (lang) => {
+    i18n.changeLanguage(lang);
+    setLanguage(lang);
+  };
 
   return (
     <div className='cards'>
@@ -56,7 +55,7 @@ const Cards = () => {
                     <p className="card__discount">{product.price + 150}</p>
                     <p className='card__sale'>24% OFF</p>
                   </div>
-                  <Link to={`/SinglePage/${product.id}`}className="card__btn">{t('view')}</Link>
+                  <Link to={`/SinglePage/${product.id}`} className="card__btn">{t('view')}</Link>
               </div>
             </div>
           ))}
@@ -67,4 +66,3 @@ const Cards = () => {
 }
 
 export default Cards;
-
