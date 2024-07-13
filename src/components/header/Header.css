@@ -1,0 +1,139 @@
+.header{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 160px;
+    height: 600px;
+    background-color: #40BFFF;
+}
+
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__title>h3{
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 82px;
+    color: #FFFFFF;
+}
+
+.header__title>p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #FFFFFF;
+    text-wrap: nowrap;
+    margin-top: 23px;
+}
+
+.header__btn{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-bottom: 3px solid #FFFFFF;
+    margin-top: 10px;
+}
+
+.mini__cards{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.mini__card{
+    max-width: 190px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.mini__card>img{
+    height: 70px;
+}
+
+.mini__card>p{
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #22262A;
+    margin-top: 43px;
+    text-wrap: nowrap;
+}
+
+.mini__card>small{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #22262A;
+    margin-top: 5px;
+}
+
+.rated{
+    margin-top: 250px;
+}
+
+.rated__title{
+    font-size: 35px;
+    line-height: 52px;
+    font-weight: 600;
+    color: #22262A;
+    text-align: center;
+}
+
+.rated__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    gap: 0 20px;
+}
+
+.rated__card{
+    display: flex;
+    gap: 0 24px;
+}
+
+.rated__card h4{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #262626;
+}
+
+.rated__card p{
+    color: #FFC600;
+    display: flex;
+    gap: 0 20px;
+    margin: 17px 0;
+
+}
+
+.rated__star{
+    color: #C1C8CE;
+}
+
+.rated__card b{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #FF4858;
+}
+
+.rated__card span{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #C1C8CE;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
